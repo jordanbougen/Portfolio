@@ -48,3 +48,63 @@ div {
   text-decoration: none;
   padding: 0 15px;
 }
+
+.welcome {
+  text-align: center;
+  padding: 50px 0;
+  height: 420px;
+}
+
+.about {
+  height: 705px;
+  background-color: #caaeb5;
+}
+
+.about_text {
+  margin-left: 95px;
+  width: 128px;
+  font-size: 3rem;
+  color: #f5f3f2;
+  padding-top: 20px;
+}
+
+.me {
+  margin-left: 95px;
+  width: 380px;
+  padding-top: 100px;
+  float: left;
+}
+
+.about_me {
+  float: left;
+  width: 700px;
+  margin-left: 70px;
+}
+
+.about_me p {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.about_me h2 {
+  color: #f5f3f2;
+}
+
+.about_me li {
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.gallery {
+  height: 705px;
+  background-color: #f5f3f2;
+}
+
+.gallery_text {
+  margin-left: 95px;
+  width: 128px;
+  font-size: 3rem;
+  color: #c0c9ca;
+  padding-top: 20px;
+}
