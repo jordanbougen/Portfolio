@@ -1,1 +1,50 @@
-hello
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div {
+  outline: yellow solid 1px;
+}
+
+.header {
+  background-image: url("img/header.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  height: 200px;
+  background-size: 100%;
+}
+
+.nav {
+  width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  font-size: 4rem;
+  color: #caaeb5;
+  padding-top: 20px;
+}
+
+.links {
+  font-size: 1rem;
+  color: #c0c9ca;
+  width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.links a {
+  color: #caaeb5;
+  text-decoration: none;
+  padding: 0 15px;
+}
