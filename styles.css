@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');@import url('https://fonts.googleapis.com/css?family=Spirax');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-  background-color: #FFFFFF;
+  background-color: #caaeb5;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-}
-
-div {
-  outline: yellow solid 1px;
 }
 
 .header {
@@ -32,6 +29,11 @@ div {
   font-size: 4rem;
   color: #caaeb5;
   padding-top: 20px;
+  font-family: 'Spirax', sans-serif;
+}
+
+.selected {
+  font-weight: bold;
 }
 
 .links {
@@ -49,15 +51,36 @@ div {
   padding: 0 15px;
 }
 
-.welcome {
-  text-align: center;
-  padding: 50px 0;
-  height: 420px;
+
+.homepage {
+  max-height: 500px;
+}
+
+.homepage img {
+  width: 100%;
+
+}
+
+.quote {
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 575px;
+  margin-bottom: 145px;
+}
+
+.quote h2 {
+  color: #f5f3f2;
 }
 
 .about {
-  height: 705px;
+  height: 500px;
   background-color: #caaeb5;
+  background-image: url("img/flowers.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 25%;
 }
 
 .about_text {
@@ -65,14 +88,17 @@ div {
   width: 128px;
   font-size: 3rem;
   color: #f5f3f2;
-  padding-top: 20px;
 }
 
 .me {
   margin-left: 95px;
-  width: 380px;
-  padding-top: 100px;
+  width: 300px;
+  padding-top: 50px;
   float: left;
+}
+
+.me img {
+  width: 300px;
 }
 
 .about_me {
@@ -84,7 +110,7 @@ div {
 .about_me p {
   color: #ffffff;
   font-size: 1rem;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .about_me h2 {
@@ -92,19 +118,55 @@ div {
 }
 
 .about_me li {
-  line-height: 25px;
+  line-height: 20px;
   color: #ffffff;
 }
 
+
 .gallery {
-  height: 705px;
-  background-color: #f5f3f2;
+  height: 500px;
+  background-color: #caaeb5;
+  height: 500px;
+  background-color: #caaeb5;
+  background-image: url("img/flowers.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 25%;
 }
 
 .gallery_text {
   margin-left: 95px;
   width: 128px;
   font-size: 3rem;
-  color: #c0c9ca;
-  padding-top: 20px;
+  color: #f5f3f2;
+}
+
+.slideshow {
+  width: 1000px;
+  background-color: rgba(255, 255, 255, .3);
+  margin-left: auto;
+  margin-right: auto;
+  border: dotted 1px #ffffff;
+}
+
+.imgs {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 375px;
+}
+
+.imgs img {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  max-height: 280px;
+}
+
+.buttons {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
